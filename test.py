@@ -2,16 +2,6 @@ import os
 
 root = '/home/awiros-tech/Documents/dogsvscats/'
 
-# for (root,dirs,files) in os.walk(master_dir):
-#   print("Directory path: %s" %root)
-#   print("Directory Names: %s" %dirs)
-#   for i in dirs:
-#     print(root + '/' + i)
-#   print("Files Names: %s"%files)
-
-
-
-
 def yield_files(root):
   
     for root, dirs, files in os.walk(root):
